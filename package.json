@@ -1,0 +1,33 @@
+{
+  "name": "very-terminal",
+  "version": "1.0.0",
+  "description": "Track terminal usage",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha",
+    "install": "make install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eiriksm/very-terminal.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiriksm/very-terminal/issues"
+  },
+  "homepage": "https://github.com/eiriksm/very-terminal",
+  "window": {
+    "toolbar": false,
+    "frame": false
+  },
+  "dependencies": {
+    "NodObjC": "0.0.15"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.1",
+    "gulp": "^3.8.7",
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.4"
+  }
+}
